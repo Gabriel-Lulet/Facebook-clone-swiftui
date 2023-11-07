@@ -6,6 +6,9 @@ struct HomeView: View {
     var body: some View {
         VStack {
             HeaderView()
+            SectionDividerView()
+            StoriesView()
+            SectionDividerView()
             Spacer()
         }
     }
