@@ -4,12 +4,15 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        VStack {
-            HeaderView()
-            SectionDividerView()
-            StoriesView()
-            SectionDividerView()
-            Spacer()
+        ScrollView {
+            VStack {
+                HeaderView()
+                SectionDividerView()
+                StoriesView()
+                SectionDividerView()
+                PostsView()
+                Spacer()
+            }
         }
     }
 }
